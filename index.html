@@ -1,68 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <section>
-        <nav>
-        <img src="./HTML Practise Assets/FES.svg" alt="FES Logo">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#discord">Discord</a></li>
-            <li><a href="#contact">Contact</a></li>
+      <nav>
+        <img class="logo" src="./HTML Practise Assets/FES.svg" alt="FES Logo" />
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        </nav>
-        <header>
+      </nav>
+      <header>
         <h1>The Best Place To Learn Frontend</h1>
         <p>Go from absolute beginner to pro with a simplified process</p>
         <button>Start now</button>
         <figure>
-            <img src="./HTML Practise Assets/laptop.png" alt="image of laptop">
+          <img src="./HTML Practise Assets/laptop.png" alt="image of laptop" />
         </figure>
-        </header>
+      </header>
     </section>
     <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <div>
-            <p>We are a community of frontend developers who are passionate about sharing knowledge and helping others learn.</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, iure et! Odit, quas amet? Cupiditate ea neque ipsum vel cum.</p>
-            </div>
-            <figure> 
-                <img src="./HTML Practise Assets/about.jpg" alt="image of a person coding">
-            </figure>
-            
-        </section>
-        <section id="discord">
-            <h2>Join Our Discord</h2>
-            <p>Connect with other learners and get help from experienced developers.</p>
-            <figure>
-                <img src="./HTML Practise Assets/discord.png" alt="image of discord logo">
-            </figure>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you have any questions, feel free to reach out!</p>
-            <form>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <div>
+          <p>
+            We are a community of frontend developers who are passionate about
+            sharing knowledge and helping others learn.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, iure
+            et! Odit, quas amet? Cupiditate ea neque ipsum vel cum.
+          </p>
+        </div>
+        <figure>
+          <img
+            src="./HTML Practise Assets/about.jpg"
+            alt="image of a person coding"
+          />
+        </figure>
+      </section>
+      <section id="discord">
+        <h2>Join Our Discord</h2>
+        <figure>
+          <img
+            src="./HTML Practise Assets/discord.png"
+            alt="image of discord logo"
+          />
+        </figure>
+        <div>
+          <p>
+            Connect with other learners and get help from experienced
+            developers.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, iure
+            et! Odit, quas amet? Cupiditate ea neque ipsum vel cum.
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <div>
+          <p>If you have any questions, feel free to reach out!</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, iure
+            et! Odit, quas amet? Cupiditate ea neque ipsum vel cum.
+          </p>
+        </div>
+        <form action="">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            placeholder="jane@example.com"
+            id="email"
+            name="email"
+            required
+          />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </main>
     <footer>
+      <img src="./HTML Practise Assets/FES.svg" alt="FES Logo" />
+      <ul class="footer-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#discord">Discord</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div>
         <p>&copy; 2023 Frontend Education Society. All rights reserved.</p>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#discord">Discord</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
