@@ -9,12 +9,11 @@ nav {
     justify-content: space-between;
     background-color:aliceblue;
     height: 70px;
-    margin-right: 16px;
+    padding: 0 16px;
     align-items: center;    
 }
 .logo {
-    width:300px;
-    margin-left: 16px;    
+    width: 300px;
 }
 .nav-links {
     list-style: none;
@@ -34,29 +33,90 @@ a:hover {
 header {
     background-color:rgb(241, 200, 241);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 70px);
 }
 h1 {
-    font-size: 48px;
+    font-size: 72px;
     margin-left: 16px;
 }
-p {
-    font-size: 24px;
+.subheader {
+    font-size: 36px;
     margin-left: 16px;
-    margin-top: 16px;;
+    margin-top: 16px;
+    margin-right: 16px;
 }
 button {
     background-color: rgb(12, 155, 184);
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 8px 16px;
+    font-size: 24px;
     cursor: pointer;
     margin-left: 16px;
     margin-top: 16px;
 }
 button:hover {
     background-color: rgb(5, 83, 99);
+}
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about, #discord, #contact {
+    padding: 48px 0px;
+}
+#about {
+    background-color: lightyellow
+
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px
+}
+.section-description {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+}
+.about_image-wrapper {
+    width: 40%;
+}
+img {
+    width: 100%;
+    padding-left: 24px;
+}
+.section-description-wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+.section-description-paragraph {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+#discord {
+    background-color: rgb(163, 227, 239);
+}
+.discord-image-wrapper {
+    width: 40%;
+}
+.discord-image {
+    width: 100%;
+}
+#contact {
+    background-color: rgb(205, 200, 241);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
 }
