@@ -1,156 +1,211 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    background-color:aliceblue;
-    height: 70px;
-    padding: 0 16px;
-    align-items: center;    
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  height: 70px;
+  padding: 0 16px;
+  align-items: center;
 }
 .logo {
-    width: 300px;
+  width: 300px;
 }
 .nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    font-size: 22px;
-    font-weight: bold;
-    gap: 16px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: bold;
+  gap: 16px;
 }
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 a:hover {
-    color: blue;
+  color: blue;
 }
 header {
-    background-color:rgb(241, 200, 241);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 70px);
+  background-color: rgb(241, 200, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
 }
 h1 {
-    font-size: 72px;
-    margin-left: 16px;
+  font-size: 72px;
+  margin-left: 16px;
 }
 .subheader {
-    font-size: 36px;
-    margin-left: 16px;
-    margin-top: 16px;
-    margin-right: 16px;
+  font-size: 36px;
+  margin-left: 16px;
+  margin-top: 16px;
+  margin-right: 16px;
 }
 button {
-    background-color: rgb(12, 155, 184);
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    font-size: 24px;
-    cursor: pointer;
-    margin-left: 16px;
-    margin-top: 16px;
+  background-color: rgb(12, 155, 184);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-top: 16px;
 }
 button:hover {
-    background-color: rgb(5, 83, 99);
+  background-color: rgb(5, 83, 99);
 }
 .row {
-    width: 100%;
-    max-width: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
-#about, #discord, #contact {
-    padding: 48px 0px;
+#about,
+#discord,
+#contact-us {
+  padding: 48px 0px;
 }
 #about {
-    background-color: lightyellow
-
+  background-color: lightyellow;
 }
 
 h2 {
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 24px
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
 }
 .section-description {
-   display: flex;
-   flex-direction: row-reverse;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 .about_image-wrapper {
-    width: 40%;
+  width: 40%;
 }
 img {
-    width: 100%;
-    padding-left: 24px;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 8px;
 }
 .section-description-wrapper {
-    width: 60%;
-    padding: 0 24px;
+  width: 60%;
+  padding: 0 24px;
 }
 .section-description-paragraph {
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
 }
 #discord {
-    background-color: rgb(163, 227, 239);
+  background-color: rgb(163, 227, 239);
 }
 .discord-image-wrapper {
-    width: 40%;
+  width: 40%;
 }
 .discord-image {
-    width: 100%;
+  width: 100%;
 }
-#contact {
-    background-color: rgb(205, 200, 241);
+#contact-us {
+  background-color: rgb(205, 200, 241);
 }
 form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    width: 100%;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
 }
-input, textarea {
-    padding: 12px;
-    margin-bottom: 16px;
-    margin-top: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
 }
 button[type="submit"] {
-    align-self: center;
+  align-self: center;
 }
 footer {
-    background-color: aliceblue;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo {
+  max-width: 480px;
+  padding-top: 16px;
+}
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 0;
+}
+.copyright {
+  font-size: 14px;
+  color: #555;
+  padding-bottom: 16px;
+}
+/* Small phones, tablets, large phones */
+
+@media (max-width: 728px) {
+  .row {
+    flex-direction: column;
+  }
+  .home-description {
+    margin-bottom: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.footer-logo {
-    max-width: 480px;
-    padding-top: 16px;
+.home-description-button {
+    max-width: 240px;
 }
-.footer-links {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    padding: 16px 0;
+  h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-right: 16px;
+  }
+  .subheader {
+    text-align: center;
+    font-size: 28px;
+  }
+  .laptop {
+    margin-right: 24px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .section-description {
+    flex-direction: column;
 }
-.copyright {
-    font-size: 14px;
-    color: #555;
-    padding-bottom: 16px;
+  .section-description-wrapper {
+    width: 100%;
+    }
+  .about_image-wrapper {
+    width: 100%;
+    padding-right: 16px;
+  }
+#discord .section-description {
+    flex-direction: column-reverse;
+  }
+footer {
+    padding: 8px 24px;
+  }
+  .footer-logo {
+    max-width: 360px;
+}
 }
